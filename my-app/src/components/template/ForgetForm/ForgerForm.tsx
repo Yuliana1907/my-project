@@ -31,7 +31,5 @@ export const ForgetForm = () => {
                 <Link to={routes.default} className='text-back'>Go back to sign in.</Link>
             </Form>
         </>
-
-  )
+    )
 }
-

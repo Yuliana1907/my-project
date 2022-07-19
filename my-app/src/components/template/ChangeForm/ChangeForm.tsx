@@ -8,7 +8,7 @@ import { RULES_FORM } from 'src/rules';
 
 export const ChangeForm = () => {
   const [form] = Form.useForm()
-    const navigate = useNavigate()
+  const navigate = useNavigate()
 
   const onFinish = (values: FormDataChangePassword) => {
     apiClient().post('reset-password-confirmation/', { ...values, token: '0b351a32-4ff6-40d8-9df0-59de7d4bfc4b'}).then((res) => { 

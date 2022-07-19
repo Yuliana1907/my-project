@@ -10,4 +10,4 @@ export type FormDataForgotPassword = {
 export type FormDataChangePassword = {
   password: string
   token: string
-}
+  }
